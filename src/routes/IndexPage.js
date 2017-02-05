@@ -5,7 +5,7 @@ import IndexCSS from './IndexPage.css';
 class IndexPage extends React.Component{
   render(){
     var options={
-      baseUrl:'http://127.0.0.1:7777/upload',
+      baseUrl:'http://139.196.210.143:7777/upload',
       chooseAndUpload:true,
       fileFieldName:'userCre',
       doUpload : function(files,mill){
